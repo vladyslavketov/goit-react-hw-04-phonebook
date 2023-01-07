@@ -42,9 +42,9 @@ export default function App() {
   };
 
   function deleteContact(contactId) {
-    console.log(contacts);
-    console.log(contactId);
-    // setContacts(prevState => prevState.contacts.filter(contact => contact.id !== contactId));
+    const updContacts = contacts.filter(contact => contact.id !== contactId);
+    
+    setContacts(updContacts);
   };
 
   useEffect(() => {
