@@ -1,0 +1,16 @@
+.form {
+  width: 360px;
+  padding: 12px;
+
+  border: 1px solid black;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.form input {
+  display: block;
+  margin-top: 8px;
+}

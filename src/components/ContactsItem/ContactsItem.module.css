@@ -1,0 +1,8 @@
+.contactsItem {
+  display: flex;
+  gap: 12px;
+}
+
+.contactsItem button {
+  margin-left: auto;
+}
